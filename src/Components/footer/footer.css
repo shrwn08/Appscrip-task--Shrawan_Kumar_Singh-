@@ -102,6 +102,9 @@
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
+.subfooter-tabdesk{
+  display: none;
+}
 .box {
   width: 6px;
   height: 6px;
@@ -226,10 +229,15 @@ text-align: center;
     width: 91.41%;
     height: 100%;
   }
-  
+  .subfooter{
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) {
+  .subfooter{
+    display: none;
+  }
   .subfooter-tabdesk{
     width: 91.41%;
     height: 100%;

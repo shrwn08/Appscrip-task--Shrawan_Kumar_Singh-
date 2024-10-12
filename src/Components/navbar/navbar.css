@@ -30,28 +30,35 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .product-card {
-    width: 300px;
-    height: 462px;
+  .navbar-container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .product-image {
-    width: 300px;
-    height: 399px;
-  }
-  .product-name {
-    font-family: Simplon Norm;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21.6px;
-    text-align: left;
-  }
-  .message {
-    font-family: Simplon Norm;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16.8px;
-    text-align: left;
-  }
+.navbar-subcontainer {
+display: none;
+}
+.navbar-subcontainer-tabdesk {
+
+height: 24px;
+top: 140px;
+left: 402px;
+gap: 64px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.link{
+font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1px;
+text-align: left;
+
+}
 }
 .navbar-subcontainer-tabdesk{
     display: none

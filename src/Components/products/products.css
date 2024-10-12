@@ -104,11 +104,12 @@
     text-align: left;
   }
   .product-list{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
   }
   
+}
+.product-container {
+  grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
 }

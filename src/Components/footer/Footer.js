@@ -13,7 +13,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      {/* <div className="subfooter">
+      <div className="subfooter">
         <div className="footer-title">Be the first to know</div>
         <div className="footer-description">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -81,7 +81,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <p className="copyright">Copyright © 2023 mettamuse. All rights reserved.</p>
       </div>
-      </div> */}
+      </div>
       <div className="subfooter-tabdesk">
         <div className="email-contact">
           <div className="email">
