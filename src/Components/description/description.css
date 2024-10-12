@@ -1,0 +1,51 @@
+.description-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.description-subcontainer {
+  width: 100%;
+  max-width: 1200px; /* Use a max-width for responsive design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .description-container {
+    height: 312px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .description {
+    width: 721px;
+    font-size: 22px;
+  }
+}

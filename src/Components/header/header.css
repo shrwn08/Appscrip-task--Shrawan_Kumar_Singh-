@@ -1,0 +1,126 @@
+.header {
+  width: 100vw;
+  height: 55px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-sub {
+  /* height: 100%; */
+  width: 91.41%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-button {
+  width: 20px;
+  height: 20px;
+  top: 41px;
+  left: 16px;
+  padding: 3px 2px 4px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.logo {
+  width: 61px;
+  height: 24px;
+  top: 39px;
+  left: 157px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24.2px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.header-icons{
+    font-size: 20px;
+}
+.burger-icon {
+  width: 16px;
+  height: 0px;
+  top: 3px;
+  left: 2px;
+  gap: 0px;
+  border: 1.5px solid #292d32;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+}
+.search-like-cart-icons {
+  width: 84px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product-card {
+      width: 300px;
+      height: 462px;
+    }
+    .product-image {
+      width: 300px;
+      height: 399px;
+    }
+    .product-name {
+      font-family: Simplon Norm;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21.6px;
+      text-align: left;
+    }
+    .message {
+      font-family: Simplon Norm;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.8px;
+      text-align: left;
+    }
+    .menu-icon-container{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .header{
+        height: 188px;
+    }
+   .logo{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    letter-spacing: 1px;
+    text-align: left;
+   }
+   .header-icons{
+    font-size: 24px;
+}
+.icon{
+    width: 36px;
+    height: 36px;
+}
+.menu-button{
+  display: none;
+}
+    
+  }
+  

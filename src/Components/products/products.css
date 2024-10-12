@@ -1,0 +1,114 @@
+.products-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-subcontainer {
+  height: auto;
+  width: 91.41%;
+  display: flex;
+ flex-wrap: wrap;
+}
+.product-card {
+  width: 168px;
+  height: 277px;
+}
+.product-image {
+}
+.message {
+  width: 168px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Simplon Norm;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #888792;
+}
+.create-message {
+}
+.product-image {
+  height: 224px;
+  width: 168px;
+}
+.product-name {
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+}
+.product-name-heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-container{
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product-card {
+    width: 300px;
+    height: 462px;
+  }
+  .product-image {
+    width: 300px;
+    height: 399px;
+  }
+  .product-name {
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  .message {
+    font-family: Simplon Norm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1025px) {
+  .products-subcontainer{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+  }
+  .product-card {
+    width: 300px;
+    height: 462px;
+  }
+  .product-image {
+    width: 300px;
+    height: 399px;
+  }
+  .product-name {
+    font-family: Simplon Norm;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: left;
+  }
+  .message {
+    font-family: Simplon Norm;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  .product-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+}

@@ -1,0 +1,39 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+}
+.sidebar-items {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+.hr {
+  width: 300px;
+  height: 0px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+.ideal-for {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: #000;
+  height: 80px;
+}
+.arrow-button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+}
